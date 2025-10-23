@@ -15,14 +15,12 @@ Main entrypoint: [`scrape_BO2025.scrape_tally_sheets_from_csv`](scrape_BO2025.py
 
 - [scrape_BO2025.py](scrape_BO2025.py) — main script and configuration (constants: [`scrape_BO2025.API_URL`](scrape_BO2025.py), [`scrape_BO2025.CSV_FILE_NAME`](scrape_BO2025.py), [`scrape_BO2025.MESA_CODE_COLUMN`](scrape_BO2025.py), [`scrape_BO2025.OUTPUT_DIR`](scrape_BO2025.py), [`scrape_BO2025.DELAY`](scrape_BO2025.py), [`scrape_BO2025.HEADERS`](scrape_BO2025.py))
 - [EG2025_20251022_171643_4736661743343535732.csv](EG2025_20251022_171643_4736661743343535732.csv) — CSV used by default
-- [EG2025_20251021_193642_3711355707836044874.csv](EG2025_20251021_193642_3711355707836044874.csv) — additional CSV
+- [EG2025_20251021_193642_3711355707836044874.csv](EG2025_20251021_193642_3711355707836044874.csv) — earlier CSV from first totalization report
 - [oep_tally_sheets/](oep_tally_sheets/) — output directory (created automatically)
-- [oep_tally_sheets (sample)/](oep_tally_sheets (sample)/) — sample outputs
+- [oep_tally_sheets (sample)/](oep_tally_sheets (sample)/) — sample outputs (not included here, it will be generated once you run the script)
 - [Resultados Elecciones Nacionales 2025.html](Resultados Elecciones Nacionales 2025.html)
 - [Resultados Elecciones Nacionales 2025_files/index-coEzeASW.css](Resultados Elecciones Nacionales 2025_files/index-coEzeASW.css)
-- [response.js](response.js)
-- [LitReview/](LitReview/)
-- [.gitignore](.gitignore)
+- [response.js](response.js) — JSON response file from the API with the tally sheet image and results from a given voting table
 
 ## Requirements
 
