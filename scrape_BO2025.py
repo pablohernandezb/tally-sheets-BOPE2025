@@ -11,7 +11,7 @@ import pandas as pd
 API_URL = "https://computo.oep.org.bo/api/v1/resultados/mesa"
 
 # The name of the CSV file containing all CodigoMesa values
-CSV_FILE_NAME = "EG2025_20251022_171643_4736661743343535732.csv"
+CSV_FILE_NAME = "EG2025_20251022_223641_9723447745638754667.csv"
 
 # The column name in the CSV that holds the codes
 MESA_CODE_COLUMN = "CodigoMesa" 
